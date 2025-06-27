@@ -32,9 +32,9 @@ More discussion on implementation can be found at [Empty]()
    - [Repos](https://github.com/hnlearndev/Universal-Life-Investment-Link-Cashflow-Illustration-Excel-SpreadSheet) with TypeScript code and regular updates can be found here.
 
 2. Rust lang:
-  - [Polars](https://pola.rs/) crate is used to handle calculation.
-  - The cashflow is then cross-checked with Excel file to confirm consistency.
-  - All the test cases are included.
+   - [Polars](https://pola.rs/) crate is used to handle calculation.
+   - The cashflow is then cross-checked with Excel file to confirm consistency.
+   - All the test cases are included.
 
 ## Getting started:
 
