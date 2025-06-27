@@ -15,9 +15,11 @@ Here are common obstacles:
 - A single issue will escalate at speed of light and sizable impact. Many regulation problems usually comes from this. Especially in developing markets.
 
 Here's why:
-- The repos is written for sole purpose of learning Rust 🦀. Most lovable and suitable language for system development.
+- The repos is written for sole purpose of learning Rust 🦀. The most lovable and suitable language for system development.
 - The tool is consolidated with the most versatile solution possible for Universal Life and Investment Link Product illustration. With minor adjustments, you are ready to deliver a full suite of solution to speed up the delivery of contract to customers.
 - The tool helps to ease the gap between spreadsheet and system implementation.
+- The tool acts as medium to understand the complexity at translation and how proper architecture planning can help with model construction.
+
 More discussion on implementation can be found at [Empty]()
 
 ## Built With
@@ -27,7 +29,7 @@ More discussion on implementation can be found at [Empty]()
    - Excel Table was intensively used to simplify readable formulas.
    - However, **Office Script (TypeScript)** is used to handle cashflows instead of VBA. Reasons: Cross-platform and speed.
    - The test file is at 📁 **src/cashflows/test_data/ilp_uvl_unified.xlsx**
-   - [Repos]() with TypeScript code and regular updates can be found here.
+   - [Repos](https://github.com/hnlearndev/Universal-Life-Investment-Link-Cashflow-Illustration-Excel-SpreadSheet) with TypeScript code and regular updates can be found here.
 
 2. Rust lang:
   - [Polars](https://pola.rs/) crate is used to handle calculation.
@@ -42,7 +44,7 @@ Install [Rust](https://www.rust-lang.org/)
 ### Repo installation
 - Clone the repo:
 ```shell
-git clone https://github.com/hnlearndev/Universal-life-Investment-Link-Illustration-Cashflow-Backend-Demo.git
+git clone https://github.com/hnlearndev/Universal-Life-Investment-Link-Cashflow-Illustration-Rust
 ```
 
 ### Usage
@@ -54,11 +56,11 @@ cargo run
 
 ## Roadmap
 - Add Changelog
-- Built a front-end to generate pdf
+- Build a front-end to generate pdf
 - Multi-language Support: Chinese, Spanish
 
 ## Contact
 
 Trung-Hieu Nguyen - hieunt.hello@gmail.com
 
-Project Link: https://github.com/hnlearndev/Universal-life-Investment-Link-Illustration-Cashflow-Backend-Demo.git
+Project Link: [https://github.com/hnlearndev/Universal-Life-Investment-Link-Cashflow-Illustration](https://github.com/hnlearndev/Universal-Life-Investment-Link-Cashflow-Illustration-Rust.git)
