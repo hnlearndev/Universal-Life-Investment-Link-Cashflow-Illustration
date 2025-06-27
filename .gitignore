@@ -1,0 +1,28 @@
+
+# Rust build artifacts
+/target/
+
+# Cargo package files
+**/*.rs.bk
+Cargo.lock
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# By default, ignore compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.out

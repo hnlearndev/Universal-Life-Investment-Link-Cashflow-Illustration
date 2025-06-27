@@ -1,0 +1,187 @@
+{
+  "id": "12345678",
+  "owner": {
+    "id": "0000000000000000001",
+    "ssn": "012345678999",
+    "dob": "1988-11-17"
+  },
+  "created_date": "2025-12-27",
+  "base": {
+    "id": "UVL01",
+    "rcd": "2025-02-23",
+    "paymode": "Annual",
+    "channel": "CHNL001",
+    "status": "Inforce",
+    "insured": {
+      "id": "0000000000000000002",
+      "ssn": "012345679999",
+      "dob": "2024-05-23",
+      "gender": "Female",
+      "relatsh": "OwnerSelf"
+    },
+    "load": {
+      "em_load": 0.75,
+      "em_load_term": 20,
+      "pm_load": 2,
+      "pm_load_term": 20
+    },
+    "si": 101000000,
+    "opted_tp_term": 35,
+    "ep": 5200000,
+    "opted_ep_term": 24,
+    "death_tpd_option": "A",
+    "maturity_option": 1,
+    "acc_ben_coeff": 3,
+    "fund_alloc": [
+      {
+        "fund": "F000",
+        "tp_pct": 100,
+        "ep_pct": 100
+      }
+    ],
+    "withdrawal_plan": [
+      {
+        "amount": 1000000,
+        "from": 5,
+        "to": 7
+      },
+      {
+        "amount": 5000000,
+        "from": 12,
+        "to": 15
+      },
+      {
+        "amount": 10000000,
+        "from": 20,
+        "to": 23
+      }
+    ]
+  },
+  "rider": [
+    {
+      "id": "PPD01",
+      "rcd": "2025-02-23",
+      "paymode": "Annual",
+      "channel": "CHNL001",
+      "status": "Inforce",
+      "insured": {
+        "id": "0000000000000000002",
+        "ssn": "012345679999",
+        "dob": "2024-05-23",
+        "gender": "Female",
+        "relatsh": "OwnerSelf"
+      },
+      "load": {
+        "em_load": 0.25,
+        "em_load_term": 17,
+        "pm_load": 3,
+        "pm_load_term": 17
+      },
+      "si": 12000000
+    },
+    {
+      "id": "ADD01",
+      "rcd": "2025-02-23",
+      "paymode": "Annual",
+      "channel": "CHNL001",
+      "status": "Inforce",
+      "insured": {
+        "id": "0000000000000000003",
+        "ssn": "012345699998",
+        "dob": "1993-12-25",
+        "gender": "Female",
+        "relatsh": "Other"
+      },
+      "load": {
+        "em_load": 0.75,
+        "em_load_term": 20,
+        "pm_load": 2,
+        "pm_load_term": 20
+      },
+      "si": 12000000
+    },
+    {
+      "id": "CIR02",
+      "rcd": "2025-02-23",
+      "paymode": "Annual",
+      "channel": "CHNL001",
+      "status": "Inforce",
+      "insured": {
+        "id": "0000000000000000003",
+        "ssn": "012345699998",
+        "dob": "1993-12-25",
+        "gender": "Female",
+        "relatsh": "Other"
+      },
+      "load": {
+        "em_load": 0.75,
+        "em_load_term": 20,
+        "pm_load": 2,
+        "pm_load_term": 20
+      },
+      "si": 25000000
+    },
+    {
+      "id": "SUP01",
+      "rcd": "2025-02-23",
+      "paymode": "Annual",
+      "channel": "CHNL001",
+      "status": "Inforce",
+      "insured": {
+        "id": "0000000000000000003",
+        "ssn": "012345699998",
+        "dob": "1993-12-25",
+        "gender": "Female",
+        "relatsh": "Other"
+      },
+      "load": {
+        "em_load": 0.75,
+        "em_load_term": 20,
+        "pm_load": 2,
+        "pm_load_term": 20
+      }
+    },
+    {
+      "id": "HOP02",
+      "rcd": "2025-02-23",
+      "paymode": "Annual",
+      "channel": "CHNL001",
+      "status": "Inforce",
+      "insured": {
+        "id": "0000000000000000003",
+        "ssn": "012345699998",
+        "dob": "1993-12-25",
+        "gender": "Female",
+        "relatsh": "Other"
+      },
+      "load": {
+        "em_load": 0.75,
+        "em_load_term": 20,
+        "pm_load": 2,
+        "pm_load_term": 20
+      },
+      "hop2_option": 4
+    },
+    {
+      "id": "CIR01",
+      "rcd": "2025-02-23",
+      "paymode": "Annual",
+      "channel": "CHNL001",
+      "status": "Inforce",
+      "insured": {
+        "id": "0000000000000000003",
+        "ssn": "012345699998",
+        "dob": "1993-12-25",
+        "gender": "Female",
+        "relatsh": "Other"
+      },
+      "load": {
+        "em_load": 0.75,
+        "em_load_term": 20,
+        "pm_load": 2,
+        "pm_load_term": 20
+      },
+      "si": 175000000
+    }
+  ]
+}

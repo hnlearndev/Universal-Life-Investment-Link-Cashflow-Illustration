@@ -1,0 +1,13 @@
+product,min_entry_age,max_entry_age,maturity_age
+UVL01,-1,60,-1
+UVL02,-1,60,-1
+UVL03,-1,60,-1
+ILP01,-1,60,-1
+ADD01,18,60,61
+PPD01,-1,70,71
+HOP02,2,59,60
+CIR02,1,65,75
+CIR01,1,58,65
+SUP01,20,59,60
+WOP01,18,60,65
+WOP02,18,60,65
