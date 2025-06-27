@@ -40,7 +40,7 @@ Install [Rust](https://www.rust-lang.org/)
 ### Repo installation
 - Clone the repo:
 ```shell
-git clone https://github.com/hnlearndev/Universal-Life-Investment-Link-Cashflow-Illustration.git
+git clone https://github.com/hnlearndev/Universal-Life-Investment-Link-Cashflow-Illustration-Rust-Backend
 ```
 
 ### Usage
@@ -59,4 +59,4 @@ cargo run
 
 Trung-Hieu Nguyen - hieunt.hello@gmail.com
 
-Project Link: https://github.com/hnlearndev/Universal-Life-Investment-Link-Cashflow-Illustration.git
+Project Link: [https://github.com/hnlearndev/Universal-Life-Investment-Link-Cashflow-Illustration.git](https://github.com/hnlearndev/Universal-Life-Investment-Link-Cashflow-Illustration-Rust-Backend)
