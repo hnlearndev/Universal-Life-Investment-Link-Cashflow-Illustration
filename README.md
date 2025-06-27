@@ -12,7 +12,7 @@ Here are common obstacles:
 
 - Sales illustration is one of the most common task that actuary might face during his/her career. Simple in its nature yet sufficiently complex once involved with different parties. Eventually, an actuary might cross to the field of IT or Agency practises to deliver his solution on such a small and niche topic.
 - A vast differences between developing and developed market place emphasis on the task importance. In developing market, building things from the ground up creates an entirely different challenge set.
-- A single issue will escalate at speed of light and sizable impact. Many regulation problems usually comes from this. Especially in developing markets.
+- A single issue will escalate at speed of light and sizable impact. Many regulation problems usually come from this. Especially in developing markets.
 
 Here's why:
 - The repos is written for sole purpose of learning Rust 🦀. The most lovable and suitable language for system development.
