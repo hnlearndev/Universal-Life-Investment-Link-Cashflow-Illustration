@@ -27,7 +27,7 @@ More discussion on implementation can be found at [Empty]()
 1. Excel spreadsheet:
    - The cannot-live-without tool by all actuaries. Act as a base to cross check the main built by Rust.
    - Excel Table was intensively used to simplify readable formulas.
-   - However, **Office Script (TypeScript)** is used to handle cashflows instead of VBA. Reasons: Cross-platform and speed.
+   - However, **Office Script (TypeScript)** is used to handle cashflow runs instead of VBA. Reasons: Cross-platform and speed.
    - The test file is at 📁 _src/cashflows/test_data/ilp_uvl_unified.xlsx_
    - [Repos](https://github.com/hnlearndev/Universal-Life-Investment-Link-Cashflow-Illustration-Excel-SpreadSheet) with TypeScript code and regular updates can be found here.
 
