@@ -59,4 +59,4 @@ cargo run
 
 Trung-Hieu Nguyen - hieunt.hello@gmail.com
 
-Project Link: https://github.com/hnlearndev/Universal-life-Investment-Link-Illustration-Cashflow-Backend-Demo.git
+Project Link: https://github.com/hnlearndev/Universal-Life-Investment-Link-Cashflow-Illustration.git
