@@ -16,6 +16,7 @@ Here's why:
 - The repos is written for sole purpose of learning Rust 🦀. Most lovable and suitable language for system development.
 - The tool is consolidated with the most versatile solution possible for Universal Life and Investment Link Product illustration. With minor adjustments, you are ready to deliver a full suite of solution to speed up the delivery of contract to customers.
 - The tool helps to ease the gap between spreadsheet and system implementation.
+- The tool acts as medium to understand the complexity at translation and how proper architecture planning can help with model construction.
 More discussion on implementation can be found at [Empty]()
 
 ## Built With
