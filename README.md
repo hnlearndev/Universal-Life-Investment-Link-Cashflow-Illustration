@@ -57,6 +57,7 @@ cargo run
 ## Roadmap
 - Add Changelog
 - Build a front-end to generate pdf
+- Buid a back-end api and other components to support functional front-end
 - Multi-language Support: Chinese, Spanish
 
 ## Contact
