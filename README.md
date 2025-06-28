@@ -27,23 +27,21 @@ More discussion on implementation can be found at [Empty]()
 ## Built With
 
 1. Excel spreadsheet:
-   - The cannot-live-without tool by all actuaries, playing as a basis to cross check the main built by Rust.
-   - Excel Table was intensively used to simplify readable formulas.
-   - However, **Office Script (TypeScript)** is used to handle cashflow runs instead of VBA. Reasons: Cross-platform and speed.
-   - The test file is at 📁 _src/cashflows/test_data/ilp_uvl_unified.xlsx_
-   - [Repos](https://github.com/hnlearndev/Universal-Life-Investment-Link-Cashflow-Illustration-Excel-SpreadSheet) with TypeScript code and regular updates can be found here.
 
-2. Rust lang:
-<<<<<<< HEAD
-=======
-   - [Polars](https://pola.rs/) crate is used to handle calculation.
-   - The cashflow is then cross-checked with Excel file to confirm consistency.
-   - All the test cases are included.
->>>>>>> c0cc7ac55557d33709c9f8fa837a4baf9ae11043
+- The cannot-live-without tool by all actuaries, playing as a basis to cross check the main built by Rust.
+- Excel Table was intensively used to simplify readable formulas.
+- However, **Office Script (TypeScript)** is used to handle cashflow runs instead of VBA. Reasons: Cross-platform and speed.
+- The test file is at 📁 _src/cashflows/test_data/ilp_uvl_unified.xlsx_
+- [Repos](https://github.com/hnlearndev/Universal-Life-Investment-Link-Cashflow-Illustration-Excel-SpreadSheet) with TypeScript code and regular updates can be found here.
 
-   - [Polars](https://pola.rs/) crate is used to handle calculation.
-   - The cashflow is then cross-checked with Excel file to confirm consistency.
-   - All the test cases are included.
+1. Rust lang:
+
+- [Polars](https://pola.rs/) crate is used to handle calculation.
+- The cashflow is then cross-checked with Excel file to confirm consistency.
+- All the test cases are included.
+- [Polars](https://pola.rs/) crate is used to handle calculation.
+- The cashflow is then cross-checked with Excel file to confirm consistency.
+- All the test cases are included.
 
 ## Getting started
 
@@ -82,6 +80,6 @@ cargo run
 
 ## Contact
 
-Trung-Hieu Nguyen - hieunt.hello@gmail.com
+Trung-Hieu Nguyen - [hieunt.hello@gmail.com](mailto:hieunt.hello@gmail.com)
 
 Project Link: [https://github.com/hnlearndev/Universal-Life-Investment-Link-Cashflow-Illustration](https://github.com/hnlearndev/Universal-Life-Investment-Link-Cashflow-Illustration-Rust.git)
