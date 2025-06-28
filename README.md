@@ -12,27 +12,37 @@ Here are common obstacles:
 
 - Sales illustration is one of the most common task that actuary might face during his/her career. Simple in its nature yet sufficiently complex once involved with different parties. Eventually, an actuary might cross to the field of IT or Agency practises to deliver his solution on such a small and niche topic.
 - A vast differences between developing and developed market place emphasis on the task importance. In developing market, building things from the ground up creates an entirely different challenge set.
-- A single issue will escalate at speed of light and sizable impact. Many regulation problems usually comes from this. Especially in developing markets.
+- A single issue will escalate at speed of light and sizable impact. Many regulation problems usually come from this, especially in developing markets.
 
 Here's why:
+<<<<<<< HEAD
 
 - The repos is written for sole purpose of learning Rust 🦀. The most lovable and suitable language for system development.
+=======
+- The repos is written for a sole purpose of learning Rust 🦀. The most lovable and suitable language for system development.
+>>>>>>> c0cc7ac55557d33709c9f8fa837a4baf9ae11043
 - The tool is consolidated with the most versatile solution possible for Universal Life and Investment Link Product illustration. With minor adjustments, you are ready to deliver a full suite of solution to speed up the delivery of contract to customers.
 - The tool helps to ease the gap between spreadsheet and system implementation.
-- The tool acts as medium to understand the complexity at translation and how proper architecture planning can help with model construction.
+- The tool acts as medium to understand the complexity at translation from spreadsheets to system implementation and how proper architecture planning can help with model construction.
 
 More discussion on implementation can be found at [Empty]()
 
 ## Built With
 
 1. Excel spreadsheet:
-   - The cannot-live-without tool by all actuaries. Act as a base to cross check the main built by Rust.
+   - The cannot-live-without tool by all actuaries, playing as a basis to cross check the main built by Rust.
    - Excel Table was intensively used to simplify readable formulas.
-   - However, **Office Script (TypeScript)** is used to handle cashflows instead of VBA. Reasons: Cross-platform and speed.
-   - The test file is at 📁 **src/cashflows/test_data/ilp_uvl_unified.xlsx**
+   - However, **Office Script (TypeScript)** is used to handle cashflow runs instead of VBA. Reasons: Cross-platform and speed.
+   - The test file is at 📁 _src/cashflows/test_data/ilp_uvl_unified.xlsx_
    - [Repos](https://github.com/hnlearndev/Universal-Life-Investment-Link-Cashflow-Illustration-Excel-SpreadSheet) with TypeScript code and regular updates can be found here.
 
 2. Rust lang:
+<<<<<<< HEAD
+=======
+   - [Polars](https://pola.rs/) crate is used to handle calculation.
+   - The cashflow is then cross-checked with Excel file to confirm consistency.
+   - All the test cases are included.
+>>>>>>> c0cc7ac55557d33709c9f8fa837a4baf9ae11043
 
    - [Polars](https://pola.rs/) crate is used to handle calculation.
    - The cashflow is then cross-checked with Excel file to confirm consistency.
@@ -70,6 +80,7 @@ cargo run
 
 - Add Changelog
 - Build a front-end to generate pdf
+- Buid a back-end api and other components to support functional front-end
 - Multi-language Support: Chinese, Spanish
 
 ## Contact
