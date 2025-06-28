@@ -4,8 +4,8 @@ use super::*;
 // PUBLIC
 // -----------------------------------------------------------------------------
 pub fn get_admin_chrg_lf(product: &ULEnum) -> PolarsResult<LazyFrame> {
-    let parquet_path = "src/database/parquet/ul_admin_chrg.parquet";
-    let lf = LazyFrame::scan_parquet(parquet_path, Default::default())?
+    let path = "src/database/parquet/ul_admin_chrg.parquet";
+    let lf = LazyFrame::scan_parquet(path, Default::default())?
         .filter(col("product").eq(lit(product.as_ref())))
         .select([col("cal_year"), col("amount").alias("admin_chrg")]);
     Ok(lf)

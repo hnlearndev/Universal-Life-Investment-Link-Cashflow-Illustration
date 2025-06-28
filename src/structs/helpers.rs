@@ -29,6 +29,7 @@ pub fn calculate_month_age(birthdate: &NaiveDate, today: &NaiveDate) -> Result<i
     }
     Ok(total_months)
 }
+
 //-----------------------------------------------------------------------------
 // UNIT TESTS
 // -----------------------------------------------------------------------------
