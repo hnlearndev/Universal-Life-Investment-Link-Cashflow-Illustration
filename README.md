@@ -16,7 +16,6 @@ Here are common obstacles:
 
 Here's why:
 
-- The repos is written for sole purpose of learning Rust 🦀. The most lovable and suitable language for system development.
 - The repos is written for a sole purpose of learning Rust 🦀. The most lovable and suitable language for system development.
 - The tool is consolidated with the most versatile solution possible for Universal Life and Investment Link Product illustration. With minor adjustments, you are ready to deliver a full suite of solution to speed up the delivery of contract to customers.
 - The tool helps to ease the gap between spreadsheet and system implementation.
